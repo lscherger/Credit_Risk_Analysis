@@ -7,34 +7,52 @@ The purpose of this analysis was to use supervised machine learning techniques t
 ## Results
 The balanced accuracy, precision and recall scores for each of the six machine learning models are listed below. 
 
-**RandomOverSampler**
+### RandomOverSampler
+
 Balanced Accuracy Score: 0.616
+
 Precision: 0.99
+
 Recall: 0.61
 
-**SMOTE**
+### SMOTE
+
 Balanced Accuracy Score: 0.619
+
 Precision: 0.99
+
 Recall: 0.64
 
-**ClusterCentroids**
+### ClusterCentroids
+
 Balanced Accuracy Score: 0.507
+
 Precision: 0.99
+
 Recall: 0.43
 
-**SMOTEEN**
+### SMOTEEN
+
 Balanced Accuracy Score: 0.639
+
 Precision: 0.99
+
 Recall: 0.57
 
-**RandomForestClassifier**
+### RandomForestClassifier
+
 Balanced Accuracy Score: 0.657
+
 Precision: 0.99
+
 Recall: 1.00
 
-**EasyEnsembleClassifier**
+### EasyEnsembleClassifier
+
 Balanced Accuracy Score: 0.929
+
 Precision: 0.99
+
 Recall: 0.93
 
 ## Summary

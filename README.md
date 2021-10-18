@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the analysis
-The purpose of this analysis was to use supervised machine learning techniques to train and evaluate unbalanced credit risk classification models using resampling. To predict credit risk, I used imbalanced-learn and scikit-learn libraries, along with oversampling, undersampling and combined sampling and bias-reducing machine learning models. 
+The purpose of this analysis was to use supervised machine learning techniques to train and evaluate unbalanced credit risk classification models using resampling. To predict credit risk, I used imbalanced-learn and scikit-learn libraries, along with oversampling, undersampling, combined sampling and bias-reducing classifier machine learning models. 
 
 
 ## Results
@@ -67,4 +67,4 @@ The highest recall score came from the RandomForestClassifier, with a recall of 
 
 Overall, the bias-reducing classifier models produced the highest accuracy, precision and recall scores, when compared to the resampling models. 
 
-After examining the results, I would recommend using the EasyEnsembleClassifier, which is intended to reduce bias, and in this analysis, had the highest balanced accuracy score (0.929) paired with high precision (0.99) and recall (0.93) scores.
+After examining the results, I would recommend using the EasyEnsembleClassifier model for predicting credit risk. The EasyEnsembleClassifier had the highest balanced accuracy score (0.929) paired with high precision (0.99) and recall (0.93) scores.
